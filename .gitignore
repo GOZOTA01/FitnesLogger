@@ -1,0 +1,26 @@
+# Ignore database configuration and sensitive data
+/scriptsPHP/db_config.php
+*.env
+
+# Ignore generated files
+*.log
+*.cache
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Ignore IDE settings (optional)
+.vscode/
+.idea/
+
+# Ignore Node.js dependencies (if applicable)
+node_modules/
+
+# Ignore Composer dependencies (if applicable)
+vendor/
+
+# Ignore user-uploaded files (if applicable)
+uploads/
